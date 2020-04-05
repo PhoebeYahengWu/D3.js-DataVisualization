@@ -51,7 +51,7 @@ var y = d3.scaleBand().range([height, 0]);
 
     //Create Title 
 svg2.append("text")
-    .attr("x", 200)
+    .attr("x", 250)
     .attr("y", 15)
     .style("text-anchor", "middle")
     .text("JavaScript is the Most Popular Language");

@@ -72,3 +72,116 @@ transition: all 0.7s ease-in-out;
 .right-content .more-padding {
   padding-left:100px;
 }
+
+
+
+
+
+
+
+body {
+  min-width:360px; 
+  margin:50px 10px;
+}
+
+#blog {
+  min-width:360px;
+  min-width: 600px;
+  display: block; 
+  width: auto!important; 
+  min-width: 360px;
+  overflow: hidden; 
+} 
+
+a, a.named_anchor {
+    text-decoration: inherit;
+    font-style: inherit;
+    color: inherit;
+  }
+  
+
+
+h1 {
+    letter-spacing: -0.06em;
+    margin-bottom: 0.05em;
+    line-height: 1em;
+}
+
+.byline {
+    font: normal normal 400 1.3em;
+    margin-bottom: .8em;
+    letter-spacing: -0.04em;
+  }
+
+.pubdate {
+    font: normal normal 400 1em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+.pubtime:before {
+    font-family: 'FontAwesome';
+    font-size: .8em;
+    content:'\f054';
+    margin: 0em .5em;
+}
+
+hr {
+    border: 0;
+    border-bottom: 4px double;
+    height: 0.15em;
+}
+
+
+.topic {
+    font: normal normal 900 .8em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+
+#article {
+  font: normal normal 400 1em/2em;
+  line-height: 2em;
+  min-width:360px;
+}
+a, a:link {
+    text-decoration: none;
+    background: #eee;
+    cursor: pointer;
+    padding: 0 0.2em;
+}  
+
+    
+h2, h3, h4 { 
+    font-weight: 900; 
+    font-size: 1.25em; 
+}
+
+
+p { 
+    margin-bottom:2em; 
+    line-height: 2em;
+}
+    
+
+p:first-child:first-letter { 
+      font-weight: 900;
+      float: left; 
+      font-size: 5em; 
+      line-height: 1em; 
+      padding: 0.1em 0.1em 0.1em 0em; 
+}
+  
+
+blockquote{
+  box-sizing: inherit;
+  padding: 0;
+  display:block;
+  margin: 1em 3em;
+  position: relative;
+  font: normal normal 300 1.6em/1.3em;
+  letter-spacing: -0.08em;
+  color: #666;
+  text-align: justify;
+  
+}

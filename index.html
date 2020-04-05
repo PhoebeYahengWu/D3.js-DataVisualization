@@ -6,66 +6,126 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
-
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Playfair+Display:700,400,900,400italic,700italic,900italic|Merriweather:400,300,700,900,300italic,400italic,700italic,900italic|Anonymous+Pro:400,700,400italic,700italic|Roboto:400,700' />
+    <link rel='stylesheet' type='text/css' href='https://cdn.rawgit.com/google/code-prettify/master/styles/desert.css'/>
     <link rel="stylesheet" href="style.css"> 
     <title>D3.js Charts</title>
 </head>
 <body>
     
-    <div class="container-fluid">
-        <div class="row pt-4 justify-content-center text-center">
-          <div class="col-md-12" id="pieChart">
+  <div class="container">
+    <div id="blog">
+      <div id="title">
+        <div class="pubdate">31 March 2020<hr/></div>
+        <h1>New York City Population by Borough, 1950 - 2020</h1>
+        <div class="byline">by Phoebe Yaheng Wu</div>
+        <!-- <div class="topic">Data</div> -->
+      </div>
+      
+    
+      
+      <!-- Article text -->
+      <a class="named_anchor" name="2549202418499648455"></a>
+      <div id="article">
+        <div id="content">
+          <p>Today, New York is the most populous U.S. city and many people are attracted to live in the city for its prosperity, energy and diversity. But can you believe there was a point in the city's history when a million people fled New York?</i>
+          </p>
+          <blockquote>According to the census bureau's report, New York city's population decreased about 10 percent from 1970 to 1980, and this downturn took the city 20 years to recoup.</blockquote>
+ 
+ 
+    <p>
+        As we can see from the bar chart below, the city’s population slumped sharply from 1970 to 1980.
+    </p>
 
-          </div>
-        </div>
-        <div class="row pt-4 justify-content-center text-center">
-          <div class="col-md-12">
-       
-            <svg width="360" height="400" id="svg2"></svg>
-          </div> 
-        </div>
+    <div class="row pt-4 justify-content-center text-center">
+      <div class="col-md-12" id="pieChart">
 
-        <div class="row pt-4 justify-content-center text-center">
-          <div class="col-md-12">
-            <div class="container">
-              <h1>History of JavaScript</h1>
-               <div class="left-content">
-                  <p>1995<br>Mocha was renamed to LiveScript and then JavaScript (JS)</p>
-                  <p>1997<br>The first standardized version of JS was released by the name of ECMAScript</p>
-                  <p>1999<br>ECMAScript 3 was released</p>
-                  <p>2009<BR>ECMAScript 5 was released</p>
-                  <p>2016<br>92% of websites using JavaScript</p>
-                  <p> </p>
+      </div>
+    </div>
+ 
+    <h3>So, what exactly caused this huge plunge in the city’s population? </h3>
+    <p>The short answer is the 1970s recession. However, New York was hit particularly hard and almost went bankrupt in 1975. Because of the economic downfall, many factories had massive layoffs and several big corporations moved their headquarters to the suburbs. At the same time, the city had to cut back the budget, therefore severely reducing sanitation services and the number of police, which led to piled garbage and high crime rates in many neighborhoods. As a result, many in the middle class left NYC, moving to the suburbs for safer and stable environment.</p>
+   
+    <!-- <div class="row">
+    <div class="col-md-6">
+    <img alt="" src="https://cdn.glitch.com/27911338-ce21-4c5e-8227-daa298f2e3ec%2FNewYork_img2.jpg?v=1585699317715"></div>
+    </div>
+    </div>
+   
+    <p class="text-center text-muted">July 1974 Transit Authority System, New York - Jim Pickerell</p>  -->
+    
 
-               </div>
-               <div class="right-content">
-                  <p>1995<br>Brendan Eich wrote Mocha during his time at Netscape</p>
-                  <p>1996<br>JS was submitted to ECMA International to be standardized</p>
-                  <p>1998<br>ECMAScript 2 was released</p>
-                  <p>2005<br>JS community flourishes. Ajax, jQuery, Prototype were released</p>
-                  <p>2015<BR>ECMAScript 6 was released</p>
-                  <p>2019<br>stack overflow developer survey indicated that JS was the most commonly used programming language</p>
-                  <p> </p>
-               </div>
-            </div>
-          </div>
+    <p>The suburbanization may also be reflected through the borough breakdown of the New York City population. As we can see from the line chart below, the populations in the four boroughs were all declining between 1970 and 1980, except for Staten Island, which is largely suburban in form and showed steady climb.</p>
+
+    <div class="row pt-4 justify-content-center text-center">
+      <div class="col-md-12">
+   
+        <svg width="500" height="400" id="svg2"></svg>
+      </div> 
+    </div>
+
+    <p>Today, Brooklyn continues to be the most heavily populated borough in New York as we can see from the doughnut chart below, followed by Queens. Manhattan ranks at third, with the Bronx coming in fourth. Staten Island is the last, with the population more than doubling since 1950.</p>
+
+    <div class="row pt-4 justify-content-center text-center">
+      <div class="col-md-12">
+        <div class="container">
+          <h1>History of JavaScript</h1>
+           <div class="left-content">
+              <p>1995<br>Mocha was renamed to LiveScript and then JavaScript (JS)</p>
+              <p>1997<br>The first standardized version of JS was released by the name of ECMAScript</p>
+              <p>1999<br>ECMAScript 3 was released</p>
+              <p>2009<BR>ECMAScript 5 was released</p>
+              <p>2016<br>92% of websites using JavaScript</p>
+              <p> </p>
+
+           </div>
+           <div class="right-content">
+              <p>1995<br>Brendan Eich wrote Mocha during his time at Netscape</p>
+              <p>1996<br>JS was submitted to ECMA International to be standardized</p>
+              <p>1998<br>ECMAScript 2 was released</p>
+              <p>2005<br>JS community flourishes. Ajax, jQuery, Prototype were released</p>
+              <p>2015<BR>ECMAScript 6 was released</p>
+              <p>2019<br>stack overflow developer survey indicated that JS was the most commonly used programming language</p>
+              <p> </p>
+           </div>
         </div>
       </div>
+    </div>
+        </div>
+      </div>
+    </div>
 
 
+    
+    </div>
 
-
-
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      
+        Joan Gralla (2009, January 27). New York City fears return to 1970s. Reuters. Retrieved from <a href="https://www.reuters.com/article/us-newyork-economy/new-york-city-fears-return-to-1970s-idUSTRE50Q6IH20090127" target="_blank">https://www.reuters.com</a><br> 
+        Edward C. Burks (1977, September 5). New York City's Population Loss 442,000 Since 1970, Is Slackening. The New York Times. Retrieved from <a href="https://www.nytimes.com/1977/09/05/archives/new-jersey-pages-new-york-citys-population-loss-442000-since-1970.html" target="_blank">https://www.nytimes.com</a>
+      <p class="text-center">Data Source: <a href="https://data.cityofnewyork.us/City-Government/New-York-City-Population-by-Borough-1950-2040/xywu-7bv9">NYC Open Data</a></p>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
 
 <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/prettify.js"></script>
+<!-- Script for pocket button -->
+<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+<!-- Print friendly -->
+<script>var pfHeaderImgUrl = '';var pfHeaderTagline = '';var pfdisableClickToDel = 0;var pfHideImages = 0;var pfImageDisplayStyle = 'right';var pfDisablePDF = 0;var pfDisableEmail = 0;var pfDisablePrint = 0;var pfCustomCSS = '';var pfBtVersion='1';(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if ('https:' === document.location.protocol){js='https://pf-cdn.printfriendly.com/ssl/main.js'}else{js='http://cdn.printfriendly.com/printfriendly.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();</script>
+<!-- Share button / http://sharebutton.co
+<script src="https://cdn.rawgit.com/carrot/share-button/master/src/share-button.js"></script>-->
 <script src="d3pie.min.js"></script>
-<script>
 
-</script>
 <script src="script.js"></script>
 </body>
 </html>
