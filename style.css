@@ -77,13 +77,6 @@ transition: all 0.7s ease-in-out;
 
 
 
-
-
-body {
-  min-width:360px; 
-  margin:50px 10px;
-}
-
 #blog {
   min-width:360px;
   min-width: 600px;
@@ -164,7 +157,7 @@ p {
 }
     
 
-p:first-child:first-letter { 
+#beginning:first-child:first-letter { 
       font-weight: 900;
       float: left; 
       font-size: 5em; 
