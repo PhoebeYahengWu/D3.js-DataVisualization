@@ -54,7 +54,7 @@ svg2.append("text")
     .attr("x", 250)
     .attr("y", 15)
     .style("text-anchor", "middle")
-    .text("JavaScript is the Most Popular Language");
+    .text("JavaScript, SQL and Python");
 
 
 var g = svg2.append("g")
