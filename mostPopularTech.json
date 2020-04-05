@@ -1,0 +1,13 @@
+[
+    {"area": "JavaScript ", "value": 67.8},
+    {"area": "HTML/CSS ", "value": 63.5},
+    {"area": "SQL ", "value": 54.4},
+    {"area": "Python ", "value": 41.7},
+    {"area": "Java ", "value": 41.1},
+    {"area": "C#", "value": 31},
+    {"area": "PHP", "value": 26.4},
+    {"area": "C++", "value": 23.5},
+    {"area": "TypeScript", "value": 21.2},
+    {"area": "C", "value": 20.6},
+    {"area": "Ruby", "value": 8.4}
+]
