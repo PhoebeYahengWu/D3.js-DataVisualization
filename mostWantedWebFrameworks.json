@@ -1,0 +1,13 @@
+[
+    {"area": "React ", "value": 21.5},
+    {"area": "Vue ", "value": 16.1},
+    {"area": "Angular ", "value": 12.2},
+    {"area": "Django ", "value": 7.8},
+    {"area": "jQuery ", "value": 5},
+    {"area": "Express", "value": 4.7},
+    {"area": "Ruby on Rails", "value": 4.4},
+    {"area": "Flask", "value": 4.3},
+    {"area": "Spring", "value": 4},
+    {"area": "ASP.NET", "value": 3.7},
+    {"area": "Laravel", "value": 3.1}
+]

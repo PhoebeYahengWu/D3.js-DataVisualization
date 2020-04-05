@@ -49,6 +49,14 @@ var tooltip = d3.select("body").append("div").attr("class", "toolTip");
 var x = d3.scaleLinear().range([0, width]);
 var y = d3.scaleBand().range([height, 0]);
 
+    //Create Title 
+svg2.append("text")
+    .attr("x", 200)
+    .attr("y", 15)
+    .style("text-anchor", "middle")
+    .text("JavaScript is the Most Popular Language");
+
+
 var g = svg2.append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -86,3 +94,23 @@ d3.json("mostPopularTech.json", function(error, data) {
       })
       .on("mouseout", function(d){ tooltip.style("display", "none");});
 });
+
+
+
+// time line
+$(window).scroll(function(){				 
+	$('.container p').each(function(){
+    	var scrollTop     = $(window).scrollTop(),
+        	elementOffset = $(this).offset().top,
+       		distance      = (elementOffset - scrollTop),
+			    windowHeight  = $(window).height(),
+			    breakPoint    = windowHeight*0.9;
+
+			if(distance > breakPoint) {
+				$(this).addClass("more-padding");	
+			}  if(distance < breakPoint) {
+				$(this).removeClass("more-padding");	
+			}
+	});
+});
+
