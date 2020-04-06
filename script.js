@@ -54,7 +54,7 @@ svg2.append("text")
     .attr("x", 250)
     .attr("y", 15)
     .style("text-anchor", "middle")
-    .text("JavaScript, SQL and Python");
+    .text("Top 10 Popular Languages");
 
 
 var g = svg2.append("g")
