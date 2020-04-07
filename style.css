@@ -183,3 +183,7 @@ blockquote{
 #chartTitle {
   margin-bottom: 0;
 }
+
+canvas{
+  margin: 0 auto;
+  }

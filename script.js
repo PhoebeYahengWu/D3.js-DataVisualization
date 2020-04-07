@@ -28,13 +28,22 @@ var pie = new d3pie("pieChart", {
             "value": 5.76
         },
         {
+            "label": "R",
+            "value": 3.8
+        },
+        {
+            "label": "Swift",
+            "value": 2.23
+        },
+        {
             "label": "TypeScript",
             "value": 1.85
         },
         {
-            "label": "Others",
-            "value": 22.08
+            "label": "Other Languages",
+            "value": 16.05
         }
+
     ]
   
    }
@@ -113,3 +122,57 @@ $(window).scroll(function(){
 	});
 });
 
+
+var ctx = document.getElementById("myChart").getContext('2d');
+
+
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ["2017", "2018", "2019", "2020"],
+        datasets: [{
+            label: 'Python', // Name the series
+            data: [41000, 46000, 61818,	73733], // Specify the data values array
+            fill: false,
+            borderColor: '#7CB9D8', // Add custom color border (Line)
+            backgroundColor: '#7CB9D8', // Add custom color background (Points and Fill)
+            borderWidth: 1 // Specify bar border width
+        },
+        {
+            label: 'Java', // Name the series
+            data: [68000, 62000, 65986,	69410], // Specify the data values array
+            fill: false,
+            borderColor: '#AE709C', // Add custom color border (Line)
+            backgroundColor: '#AE709C', // Add custom color background (Points and Fill)
+            borderWidth: 1 // Specify bar border width
+        },
+        {
+            label: 'JavaScript', // Name the series
+            data: [40000, 38000, 38018,	56499], // Specify the data values array
+            fill: false,
+            borderColor: '#FCA147', // Add custom color border (Line)
+            backgroundColor: '#FCA147', // Add custom color background (Points and Fill)
+            borderWidth: 1 // Specify bar border width
+        },
+        {
+            label: 'C++', // Name the series
+            data: [33000, 31000, 36798,	41026], // Specify the data values array
+            fill: false,
+            borderColor: '#42B9B5', // Add custom color border (Line)
+            backgroundColor: '#42B9B5', // Add custom color background (Points and Fill)
+            borderWidth: 1 // Specify bar border width
+        },
+        {
+            label: 'C#', // Name the series
+            data: [28000, 27000, 27521,	31929], // Specify the data values array
+            fill: false,
+            borderColor: '#768193', // Add custom color border (Line)
+            backgroundColor: '#768193', // Add custom color background (Points and Fill)
+            borderWidth: 1 // Specify bar border width
+        }]
+    },
+    options: {
+      responsive: false, // Instruct chart js to respond nicely.
+      maintainAspectRatio: true // Add to prevent default behaviour of full-width/height 
+    }
+});
