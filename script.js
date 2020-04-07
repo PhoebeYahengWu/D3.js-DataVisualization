@@ -4,32 +4,36 @@ var pie = new d3pie("pieChart", {
   
       "content": [
         {
-            "label": "Europe",
-            "value": 36073	
+            "label": "Python",
+            "value": 30.61	
         },
         {
-            "label": "North America",
-            "value": 25526	
+            "label": "Java",
+            "value": 18.45
         },
         {
-            "label": "Asia",
-            "value": 18273	
+            "label": "JavaScript",
+            "value": 7.91	
         },
         {
-            "label": "South America",
-            "value": 3459	
+            "label": "C#",
+            "value": 7.27
         },
         {
-            "label": "Africa",
-            "value": 2850
+            "label": "PHP",
+            "value": 6.07
         },
         {
-            "label": "Australia",
-            "value": 2434
+            "label": "C/C++",
+            "value": 5.76
         },
         {
-            "label": "Other",
-            "value": 268
+            "label": "TypeScript",
+            "value": 1.85
+        },
+        {
+            "label": "Others",
+            "value": 22.08
         }
     ]
   

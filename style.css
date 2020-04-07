@@ -179,3 +179,8 @@ blockquote{
   text-align: justify;
   
 }
+
+svg {
+  width: 400 !important;
+  height: 400 !important;
+}
