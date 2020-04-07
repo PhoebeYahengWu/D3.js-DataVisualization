@@ -53,12 +53,7 @@ var tooltip = d3.select("body").append("div").attr("class", "toolTip");
 var x = d3.scaleLinear().range([0, width]);
 var y = d3.scaleBand().range([height, 0]);
 
-    //Create Title 
-svg2.append("text")
-    .attr("x", 250)
-    .attr("y", 15)
-    .style("text-anchor", "middle")
-    .text("Top 10 Popular Languages");
+
 
 
 var g = svg2.append("g")

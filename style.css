@@ -180,7 +180,6 @@ blockquote{
   
 }
 
-svg {
-  width: 400 !important;
-  height: 400 !important;
+#chartTitle {
+  margin-bottom: 0;
 }
