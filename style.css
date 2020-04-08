@@ -34,12 +34,16 @@ h1 {
   margin:20px 0 40px;
   padding:0;
 }
+
+
 .container {
-	width:80%;
-	margin:0 auto;
-	overflow:auto;
-	padding:2%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 .right-content, .left-content {
 	float:left;
 	display:block;
